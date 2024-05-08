@@ -17,7 +17,7 @@ import * as cheerio from "cheerio";
 async function getStatisticsData(ticker) {
     try {
         // Construct URL for fetching statistics data
-        const url = `https://finance.yahoo.com/quote/${ticker}/key-statistics?p=${ticker}`;
+        const url = `https://ca.finance.yahoo.com/quote/${ticker}/key-statistics?p=${ticker}`;
         
         // Fetch HTML data from the URL
         const { data } = await axios.get(url, {

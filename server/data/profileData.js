@@ -15,7 +15,7 @@ import * as cheerio from "cheerio";
 async function getProfileData(ticker) {
     try {
         // Construct the URL for fetching profile data
-        const url = `https://finance.yahoo.com/quote/${ticker}/profile?p=${ticker}`;
+        const url = `https://ca.finance.yahoo.com/quote/${ticker}/profile?p=${ticker}`;
         console.log("URL:", url);
 
         // Fetch data from the URL using axios with a specific User-Agent header

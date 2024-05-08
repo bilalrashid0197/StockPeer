@@ -15,7 +15,7 @@ import * as cheerio from "cheerio";
 async function getSustainabilityData(ticker) {
     try {
         // Construct the URL for fetching sustainability data
-        const url = `https://finance.yahoo.com/quote/${ticker}/sustainability?p=${ticker}`;
+        const url = `https://ca.finance.yahoo.com/quote/${ticker}/sustainability?p=${ticker}`;
         // Fetch HTML content from the URL
         const { data } = await axios.get(url, {
             headers: {

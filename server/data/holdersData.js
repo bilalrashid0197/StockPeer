@@ -18,7 +18,7 @@ import * as cheerio from "cheerio";
 async function getHoldersData(ticker) {
     try {
         // Construct the URL for fetching holders data
-        const url = `https://finance.yahoo.com/quote/${ticker}/holders?p=${ticker}`;
+        const url = `https://ca.finance.yahoo.com/quote/${ticker}/holders?p=${ticker}`;
         console.log("URL:", url);
         
         // Fetch data from the URL using Axios

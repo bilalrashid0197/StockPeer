@@ -39,6 +39,7 @@ type Props = {
 
 const Ratings = ({ ticker }: Props) => {
   // Fetch data from API
+  
   const { data, isLoading, error } = useGetSustainabilityQuery(ticker);
   
   // Custom theme colors

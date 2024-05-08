@@ -16,7 +16,7 @@ import * as cheerio from "cheerio";
 async function getIncomeStatementData(ticker) {
     try {
         // Construct the URL for fetching income statement data
-        const url = `https://finance.yahoo.com/quote/${ticker}/financials?p=${ticker}`;
+        const url = `https://ca.finance.yahoo.com/quote/${ticker}/financials?p=${ticker}`;
         // Fetch HTML content from the URL
         const { data } = await axios.get(url, {
             headers: {

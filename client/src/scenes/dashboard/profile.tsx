@@ -56,7 +56,9 @@ type Props = {
 
 const Profile = ({ ticker }: Props) => {
   // Fetch data from API
+  
   const { data, isLoading, error } = useGetProfileQuery(ticker);
+  
   
   // Custom theme colors
   const theme = useTheme();

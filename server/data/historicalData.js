@@ -17,7 +17,7 @@ import * as cheerio from "cheerio";
 async function getHistoricalData(ticker) {
     try {
         // Construct the URL for fetching historical data
-        const url = `https://finance.yahoo.com/quote/${ticker}/history?p=${ticker}`;
+        const url = `https://ca.finance.yahoo.com/quote/${ticker}/history?p=${ticker}`;
         console.log("URL:", url); // Log the URL for debugging purposes
         
         // Fetch HTML content from the URL using Axios

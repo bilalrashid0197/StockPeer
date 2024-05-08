@@ -79,7 +79,6 @@ const IncomeStatement = ({ ticker }: Props) => {
       name: data[0][i],
       pv: parseInt(data[1][i].replace(/,/g, ''), 10),
       uv: parseInt(data[2][i].replace(/,/g, ''), 10),
-      amt: parseInt(data[3][i].replace(/,/g, ''), 10),
     };
     dataObj.push(dataPoint);
   }
