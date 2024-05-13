@@ -158,7 +158,7 @@ Hamza Rashid
 
 Bilal Rashid
 
-- Email: bilal0197@gmail.com
+- Email: rash8510@mylaurier.ca
 - LinkedIn: https://www.linkedin.com/in/bilal-rashid-a04625198/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
