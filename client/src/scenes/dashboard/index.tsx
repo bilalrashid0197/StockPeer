@@ -79,8 +79,8 @@ const Dashboard = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1200px)");
 
   // State and handler functions for search query and ticker symbol
-  const [searchQuery, setSearchQuery] = useState('');
-  const [ticker, setTicker] = useState('');
+  const [searchQuery, setSearchQuery] = useState('TSLA');
+  const [ticker, setTicker] = useState('TSLA');
 
   const handleSearchChange = (query : string) => {
     setSearchQuery(query);

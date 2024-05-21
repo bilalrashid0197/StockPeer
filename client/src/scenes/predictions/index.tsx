@@ -59,8 +59,8 @@ function getCurrentDateFormatted(yearsToAdd: number): string {
 
 const Predictions = () => {
   // State variables
-  const [searchQuery, setSearchQuery] = useState('');
-  const [ticker, setTicker] = useState('');
+  const [searchQuery, setSearchQuery] = useState('AAPL');
+  const [ticker, setTicker] = useState('AAPL');
   const theme = useTheme();
   const [isPredictions, setIsPredictions] = useState(false);
 
